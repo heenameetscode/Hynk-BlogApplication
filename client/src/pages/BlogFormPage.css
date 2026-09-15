@@ -1,0 +1,13 @@
+.blog-form-page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+}
+
+.blog-form-page h1 {
+  font-size: 26px;
+}
+
+.blog-form-subtitle {
+  margin-bottom: 28px;
+}

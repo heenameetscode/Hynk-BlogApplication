@@ -1,0 +1,7 @@
+.blog-form {
+  max-width: 680px;
+}
+
+.blog-form textarea {
+  font-family: var(--font-sans);
+}

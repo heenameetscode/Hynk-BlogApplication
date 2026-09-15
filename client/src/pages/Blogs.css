@@ -1,0 +1,32 @@
+.blogs-toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.blogs-search {
+  flex: 1;
+  min-width: 220px;
+  padding: 11px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  font-size: 14.5px;
+  font-family: var(--font-sans);
+}
+
+.blogs-search:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+.blogs-category {
+  padding: 11px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  font-size: 14.5px;
+  font-family: var(--font-sans);
+  background: var(--color-surface);
+  min-width: 160px;
+}
