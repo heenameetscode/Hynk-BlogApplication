@@ -271,7 +271,7 @@ CLIENT_ORIGIN=http://localhost:5173
 Create a `.env` file inside the `client` folder:
 
 ```env
-VITE_API_URL=http://localhost:5000/api
+API_URL=http://localhost:5000/api
 ```
 
 > **Important:** Never commit `.env` files or secret keys to GitHub.
